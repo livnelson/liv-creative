@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css" />
     <title> Liv Nelson Creative Design</title>
   </head>
@@ -17,10 +19,19 @@
 
     <!-- home section -->
     <section class="home-section active" id="home">
-      <div>
-        <h1 class="hero-heading">hello, i'm liv</h1>
-        <p class="hero-subheading">It's nice to {virtually} meet you!</p>
-        <img src="img/home.png" class="home-img" alt="liv"> <!-- NEED TO UPLOAD -->
+      <div class="video-wrapper">
+        <video playsinline autoplay muted loop poster="pexels-engin-akyurt-6071387.jpg">
+          <source src="pexels-engin-akyurt-6071387.webm" type="video/webm">
+          <source src="pexels-engin-akyurt-6071387.mp4" type="video/webm">
+          Your browser does not support the video tag.
+        </video>
+        <div>
+          <h1 class="hero-heading">hello, i'm liv</h1>
+          <p class="hero-subheading">It's nice to {virtually} meet you!</p>
+          <img src="img/home.png" class="home-img" alt="liv"> <!-- NEED TO UPLOAD -->
+         <button type="anchor" class="hero-button" link="#about">learn more about me</button>
+         <button type="anchor"class="hero-button" a href="#projects">view recent projects</button>
+        </div>
       </div>
     </section>
 
