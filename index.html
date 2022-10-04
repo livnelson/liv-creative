@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <title> Liv Nelson Creative Design</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
-    <title> Liv Nelson Creative Design</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <!-- navbar -->
@@ -18,20 +18,17 @@
     </nav>
 
     <!-- home section -->
+    <video id="videoBG" poster="pexels-engin-akyurt-6071387.jpg" autoplay muted loop>
+      <source src="video/pexels-engin-akyurt-6071387.webm" type="video/webm">
+      <source src="video/pexels-engin-akyurt-6071387.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>  
     <section class="home-section active" id="home">
-      <div class="video-wrapper">
-        <video playsinline autoplay muted loop poster="pexels-engin-akyurt-6071387.jpg">
-          <source src="pexels-engin-akyurt-6071387.webm" type="video/webm">
-          <source src="pexels-engin-akyurt-6071387.mp4" type="video/webm">
-          Your browser does not support the video tag.
-        </video>
-        <div>
-          <h1 class="hero-heading">hello, i'm liv</h1>
-          <p class="hero-subheading">It's nice to {virtually} meet you!</p>
-          <img src="img/home.png" class="home-img" alt="liv"> <!-- NEED TO UPLOAD -->
-         <button type="anchor" class="hero-button" link="#about">learn more about me</button>
-         <button type="anchor"class="hero-button" a href="#projects">view recent projects</button>
-        </div>
+      <div>
+        <h1 class="home-heading">hello, i'm liv</h1>
+        <p class="home-subheading">It's nice to {virtually} meet you!</p>
+        <a href="#about"><button class="home-btn">learn more about me</button></a>
+        <a href="#projects"><button class="home-btn">view my recent projects</button></a> 
       </div>
     </section>
 
@@ -81,54 +78,13 @@
       </div>
     </section>
 
-    <!-- skills-->
-    <div class="skill-section active">
+    <!-- skills section -->
+    <div class="skills-section active" id="skills">
       <h2 class="skills-heading">skills</h2>
-      <div class="skills-container">
-          <div class="skill-card">
-              <img src="img/html.png" class="skill-img" alt="html">
-              <div class="skill-level">98%</div>
-              <h3 class="skill-name">HTML</h3>
-              <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-
-          <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="css">
-            <div class="skill-level">90%</div>
-            <h3 class="skill-name">css</h3>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-
-          <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="wordpress">
-            <div class="skill-level">98%</div>
-            <h3 class="skill-name">WordPress</h3>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-
-          <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="javascript">
-            <div class="skill-level">85%</div>
-            <h3 class="skill-name">JavaScript</h3>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>
-
-          <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="creativecloud">
-            <div class="skill-level">95%</div>
-            <h3 class="skill-name">Creative Cloud</h3>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div> 
-        
-          <div class="skill-card">
-            <img src="img/html.png" class="skill-img" alt="node">
-            <div class="skill-level">80%</div>
-            <h3 class="skill-name">Node</h3>
-            <p class="skill-info">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur, delectus!</p>
-          </div>  
-        </div>
-      </div>
-    </div>
+      <figure class="skills">
+        <img src="image/liv-creative-skills.png" alt="skills" width="700px">
+      </figure>
+    </div>  
 
     <!-- experience timeline -->
     <div class="timeline active">
