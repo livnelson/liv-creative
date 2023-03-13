@@ -1,0 +1,64 @@
+.experience-card {
+  background-color: rgba(213, 213, 214, 0.2);
+  border:none;
+  border-radius: 5px;
+  max-width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  margin-top: 20px;
+}
+
+.job-company {
+  font-size: .75em;
+  line-height: 1;
+  margin-bottom: 5px;
+  letter-spacing: 0.5px;
+}
+
+.job-title-dates {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.job-title {
+  letter-spacing: 1px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.job-dates {
+  font-size: .85em;
+  letter-spacing: 1px;
+  margin-top: 5px;
+  align-self: last baseline;
+}
+
+.job-btn {
+  margin-top: 20px;
+  background-color: rgba(34, 191, 200, 1);
+  color: white;
+  letter-spacing: 0.5px;
+  border: none;
+  border-radius: 3px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  cursor: pointer;
+}
+
+.job-btn:hover {
+  background-color: rgba(34, 191, 200, 0.5);
+  cursor: pointer;
+}
+
+.job-desc {
+  margin-top: 10px;
+  font-size: .90em;
+  letter-spacing: 0.5px;
+}

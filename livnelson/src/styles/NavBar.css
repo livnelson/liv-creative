@@ -1,0 +1,8 @@
+.nav-bar {
+  background-color: #12121d;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  float: right;
+  transition: all 0.2s;
+}

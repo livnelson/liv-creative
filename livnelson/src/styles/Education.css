@@ -1,0 +1,18 @@
+.education-section {
+  max-width: 100%;
+  margin-top: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.education {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+  align-items: space-evenly;
+  align-content: left;
+  padding-left: 0px;
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}

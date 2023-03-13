@@ -1,0 +1,34 @@
+.skills-section {
+  max-width: 100%;
+  margin-right: 20px;
+  margin-top: 140px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.skills-heading {
+  margin-bottom: 14px;
+}
+
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  
+}
+
+.skill-image {
+  /* max-width: 100px; */
+  max-height: 60px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  transition: transform 450ms;
+}
+
+.skill-image:hover{
+  transform: scale(1.15);
+}
